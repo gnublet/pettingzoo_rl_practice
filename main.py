@@ -28,7 +28,7 @@ model = PPO(
     env,
     verbose=3,
     gamma=0.95,
-    n_steps=256,
+    n_steps=512,
     ent_coef=0.0905168,
     learning_rate=0.00012211,
     vf_coef=0.042202,
@@ -36,9 +36,9 @@ model = PPO(
     gae_lambda=0.99,
     n_epochs=10,
     clip_range=0.3,
-    batch_size=256,
+    batch_size=512,
 )
-model.learn(total_timesteps=200000)
+model.learn(total_timesteps=300000)
 model.save("policy")
 
 # Rendering

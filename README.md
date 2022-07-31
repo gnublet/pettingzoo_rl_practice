@@ -1,4 +1,4 @@
-## Cooporative Pong
+## Cooperative Pong
 This is a practice repo for multi-agent reinforcement learning.
 
 We use Petting Zoo, a environment API framework similar to Open AI's Gym, but focused on multi-agent systems.
